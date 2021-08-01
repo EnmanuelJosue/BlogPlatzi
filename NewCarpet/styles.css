@@ -7,6 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
+    background: #1e1f24;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,14 +27,19 @@ body{
 }
 
 #cabecera{
-    background: #44a;
+    background: #37488b;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.25);
     color: rgb(148, 221, 179);
     font-weight: bold;
     margin: 0px;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+#cabecera #logo{
+    width: 2rem;
+    vertical-align: middle;
 }
 #post{
+    background: white;
     padding: 1rem;
 }
 #footer{
