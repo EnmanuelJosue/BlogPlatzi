@@ -20,6 +20,9 @@ body{
     border: 1px solid #AAA;
     margin: 0 auto;
 }
+#container h1{
+    font-size: 2rem;
+}
 
 #cabecera{
     background: #44a;
@@ -28,4 +31,7 @@ body{
     font-weight: bold;
     margin: 0px;
     padding: 0.5rem;
+}
+#post{
+    padding: 1rem;
 }
